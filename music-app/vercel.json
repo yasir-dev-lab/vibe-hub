@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "regions": ["iad1"],
+  "env": {
+    "AUDIOMACK_API_KEY": "@audiomack-api-key",
+    "AUDIOMACK_API_SECRET": "@audiomack-api-secret",
+    "AUDIOMACK_ACCESS_TOKEN": "@audiomack-access-token",
+    "AUDIOMACK_ACCESS_TOKEN_SECRET": "@audiomack-access-token-secret"
+  }
+}

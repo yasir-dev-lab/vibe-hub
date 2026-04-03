@@ -4,21 +4,32 @@ node_modules/
 
 # Environment variables
 .env.local
-.env*.local
 
 # Build outputs
 dist/
 build/
 .next/
+out/
 
 # Logs
 *.log
+
+# Temporary files
+*.tmp
+*.swp
 
 # IDE
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.
 ```
