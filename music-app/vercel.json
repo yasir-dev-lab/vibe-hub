@@ -6,9 +6,9 @@
   "outputDirectory": ".next",
   "regions": ["iad1"],
   "env": {
-    "AUDIOMACK_API_KEY": "@audiomack-api-key",
-    "AUDIOMACK_API_SECRET": "@audiomack-api-secret",
-    "AUDIOMACK_ACCESS_TOKEN": "@audiomack-access-token",
-    "AUDIOMACK_ACCESS_TOKEN_SECRET": "@audiomack-access-token-secret"
+    "AUDIOMACK_CONSUMER_KEY": "@audiomack-consumer-key",
+    "AUDIOMACK_CONSUMER_SECRET": "@audiomack-consumer-secret",
+    "AUDIOMACK_BASE_URL": "@audiomack-base-url",
+    "AUDIOMACK_OAUTH_CALLBACK": "@audiomack-oauth-callback"
   }
 }
